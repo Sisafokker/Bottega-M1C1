@@ -1,0 +1,90 @@
+
+
+/* Grid 1: */
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+/* Grid 2: */
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
+}
+
+.gridTwo .elem21 {
+    background-color: red;
+    width: 25vw;
+}
+
+.gridTwo .elem22 {
+    background-color: blue;
+    width: 25vw;
+}
+
+.gridTwo > .elem23 {
+    background-color: yellow;
+    width: 50vw;
+}
+
+/* Grid 3: */
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: lightgrey;
+}
+
+.gridThree > .elem32 img{
+    object-fit: cover;
+    width: 500px;
+    height: 225px;
+}
+
+/* Grid 4: */
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+}
+
+.gridFour #anotherGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Grid 5: */
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: grey;
+    width: 500px;
+}
+
+.gridFive #anotherGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive #anotherGrid img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/* Grid 6: */
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: lightgrey;
+    width: 500px;
+
+    font-family: "Mynerve", sans-serif;
+    font-weight: 900;
+}
